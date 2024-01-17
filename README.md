@@ -11,7 +11,7 @@ No real purpose other than playing around with swiftUI for fun
 
 ## App 
 
-![Screenshot of the Lulu App](Screenshot 2024-01-17 at 5.08.51 PM.png)
+![Screenshot of the Lulu App](appPreview.png)
 
 ## Usage
 

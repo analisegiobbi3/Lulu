@@ -12,7 +12,8 @@
 		F75AC67E2B587DCB00C48A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75AC67D2B587DCB00C48A96 /* Assets.xcassets */; };
 		F75AC6812B587DCB00C48A96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75AC6802B587DCB00C48A96 /* Preview Assets.xcassets */; };
 		F75AC6892B58823600C48A96 /* Borel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F75AC6882B58823600C48A96 /* Borel-Regular.ttf */; };
-		F75AC68C2B58845E00C48A96 /* treats.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F75AC68B2B58845E00C48A96 /* treats.m4a */; };
+		F75AC68F2B58896800C48A96 /* appPreview.png in Resources */ = {isa = PBXBuildFile; fileRef = F75AC68E2B58896800C48A96 /* appPreview.png */; };
+		F75AC6912B589D0300C48A96 /* treatAudio.wav in Resources */ = {isa = PBXBuildFile; fileRef = F75AC6902B589D0300C48A96 /* treatAudio.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,8 +24,9 @@
 		F75AC6802B587DCB00C48A96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F75AC6882B58823600C48A96 /* Borel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Borel-Regular.ttf"; sourceTree = "<group>"; };
 		F75AC68A2B58824C00C48A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		F75AC68B2B58845E00C48A96 /* treats.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = treats.m4a; sourceTree = "<group>"; };
 		F75AC68D2B5886D000C48A96 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F75AC68E2B58896800C48A96 /* appPreview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appPreview.png; sourceTree = "<group>"; };
+		F75AC6902B589D0300C48A96 /* treatAudio.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = treatAudio.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				F75AC68D2B5886D000C48A96 /* README.md */,
+				F75AC68E2B58896800C48A96 /* appPreview.png */,
 				F75AC6782B587DC900C48A96 /* Lulu */,
 				F75AC6772B587DC900C48A96 /* Products */,
 			);
@@ -63,8 +66,8 @@
 				F75AC6792B587DC900C48A96 /* LuluApp.swift */,
 				F75AC67B2B587DC900C48A96 /* ContentView.swift */,
 				F75AC67D2B587DCB00C48A96 /* Assets.xcassets */,
+				F75AC6902B589D0300C48A96 /* treatAudio.wav */,
 				F75AC67F2B587DCB00C48A96 /* Preview Content */,
-				F75AC68B2B58845E00C48A96 /* treats.m4a */,
 			);
 			path = Lulu;
 			sourceTree = "<group>";
@@ -143,8 +146,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75AC68F2B58896800C48A96 /* appPreview.png in Resources */,
+				F75AC6912B589D0300C48A96 /* treatAudio.wav in Resources */,
 				F75AC6892B58823600C48A96 /* Borel-Regular.ttf in Resources */,
-				F75AC68C2B58845E00C48A96 /* treats.m4a in Resources */,
 				F75AC6812B587DCB00C48A96 /* Preview Assets.xcassets in Resources */,
 				F75AC67E2B587DCB00C48A96 /* Assets.xcassets in Resources */,
 			);

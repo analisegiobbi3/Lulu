@@ -9,6 +9,9 @@ import SwiftUI
 import AVFoundation
 
 struct ContentView: View {
+    
+    @State var audioPlayer: AVAudioPlayer?
+    
     var body: some View {
         VStack {
             ZStack {
@@ -18,7 +21,7 @@ struct ContentView: View {
                         .font(Font.custom("Borel-Regular", size: 40))
                         .bold()
                         .foregroundColor(.white)
-                    Button(action: {treatSound(soundName: "treats")}, label: {
+                    Button(action: {playSound(soundTitle: "treatAudio")}, label: {
                         Image("luluPaw")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
@@ -34,15 +37,18 @@ struct ContentView: View {
         }
         
     }
+    
+    func playSound(soundTitle: String){
+        if let url = Bundle.main.url(forResource: soundTitle, withExtension: "wav") {
+            do {
+                audioPlayer = try AVAudioPlayer(contentsOf: url)
+                audioPlayer?.play()
+            } catch {
+                print("Error trying to play audio")
+            }
+        }
+    }
 }
-
-func treatSound(soundName: String) {
-    var player: AVAudioPlayer!
-    let url = Bundle.main.url(forResource: soundName, withExtension: "m4a")
-    player = try! AVAudioPlayer(contentsOf: url!)
-    player.play()
-}
-
 
 
 #Preview {
