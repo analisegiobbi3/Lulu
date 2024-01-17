@@ -11,6 +11,8 @@
 		F75AC67C2B587DC900C48A96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75AC67B2B587DC900C48A96 /* ContentView.swift */; };
 		F75AC67E2B587DCB00C48A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75AC67D2B587DCB00C48A96 /* Assets.xcassets */; };
 		F75AC6812B587DCB00C48A96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75AC6802B587DCB00C48A96 /* Preview Assets.xcassets */; };
+		F75AC6892B58823600C48A96 /* Borel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F75AC6882B58823600C48A96 /* Borel-Regular.ttf */; };
+		F75AC68C2B58845E00C48A96 /* treats.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F75AC68B2B58845E00C48A96 /* treats.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,10 @@
 		F75AC67B2B587DC900C48A96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F75AC67D2B587DCB00C48A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F75AC6802B587DCB00C48A96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F75AC6882B58823600C48A96 /* Borel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Borel-Regular.ttf"; sourceTree = "<group>"; };
+		F75AC68A2B58824C00C48A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F75AC68B2B58845E00C48A96 /* treats.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = treats.m4a; sourceTree = "<group>"; };
+		F75AC68D2B5886D000C48A96 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 		F75AC66D2B587DC900C48A96 = {
 			isa = PBXGroup;
 			children = (
+				F75AC68D2B5886D000C48A96 /* README.md */,
 				F75AC6782B587DC900C48A96 /* Lulu */,
 				F75AC6772B587DC900C48A96 /* Products */,
 			);
@@ -51,10 +58,13 @@
 		F75AC6782B587DC900C48A96 /* Lulu */ = {
 			isa = PBXGroup;
 			children = (
+				F75AC68A2B58824C00C48A96 /* Info.plist */,
+				F75AC6872B5881E900C48A96 /* Fonts */,
 				F75AC6792B587DC900C48A96 /* LuluApp.swift */,
 				F75AC67B2B587DC900C48A96 /* ContentView.swift */,
 				F75AC67D2B587DCB00C48A96 /* Assets.xcassets */,
 				F75AC67F2B587DCB00C48A96 /* Preview Content */,
+				F75AC68B2B58845E00C48A96 /* treats.m4a */,
 			);
 			path = Lulu;
 			sourceTree = "<group>";
@@ -65,6 +75,14 @@
 				F75AC6802B587DCB00C48A96 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F75AC6872B5881E900C48A96 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F75AC6882B58823600C48A96 /* Borel-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +143,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75AC6892B58823600C48A96 /* Borel-Regular.ttf in Resources */,
+				F75AC68C2B58845E00C48A96 /* treats.m4a in Resources */,
 				F75AC6812B587DCB00C48A96 /* Preview Assets.xcassets in Resources */,
 				F75AC67E2B587DCB00C48A96 /* Assets.xcassets in Resources */,
 			);
@@ -275,6 +295,7 @@
 				DEVELOPMENT_TEAM = 236RZ3G84T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lulu/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +325,7 @@
 				DEVELOPMENT_TEAM = 236RZ3G84T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lulu/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
